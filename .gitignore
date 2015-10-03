@@ -81,7 +81,6 @@ crashlytics-build.properties
 ### Node template
 # Logs
 logs
-*.log
 npm-debug.log*
 
 # Runtime data
@@ -114,3 +113,5 @@ app/scripts/bootstrap.js.map
 /app/vendor
 /app/styles/main.css.map
 /app/styles/main.css
+
+.sass-cache
