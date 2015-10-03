@@ -111,3 +111,6 @@ node_modules
 app/scripts/bootstrap.js
 app/scripts/bootstrap.js.map
 
+/app/vendor
+/app/styles/main.css.map
+/app/styles/main.css

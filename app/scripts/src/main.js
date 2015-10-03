@@ -4,4 +4,4 @@ class ES6Class {
   }
 }
 
-let myClass = new ES6Class('yay');
+const myThingy = new ES6Class("yay");

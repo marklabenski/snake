@@ -1,0 +1,10 @@
+// bower:scss
+// endbower
+
+.test {
+  &.class{
+    padding-left: 1px * 3;
+    color: #909090;
+    background-color: red;
+  }
+}
