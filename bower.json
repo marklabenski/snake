@@ -1,0 +1,16 @@
+{
+  "name": "snake",
+  "version": "0.0.0",
+  "authors": [
+    "marklabenski <mark.labenski@gmail.com>"
+  ],
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/scripts/vendor/",
+    "test",
+    "tests"
+  ]
+}

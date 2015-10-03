@@ -1,0 +1,24 @@
+{
+  "name": "snake",
+  "version": "0.0.0",
+  "description": "a snake game on canvas",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake",
+    "canvas",
+    "html5",
+    "game"
+  ],
+  "author": "Mark Labenski",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1",
+    "load-grunt-config": "^0.17.2"
+  }
+}
