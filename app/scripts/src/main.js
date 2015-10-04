@@ -18,8 +18,41 @@ const circle = new Konva.Circle({
   strokeWidth: 4
 });
 
-// add the shape to the layer
+circle.cache();
+circle.filters([Konva.Filters.Pixelate]);
+circle.pixelSize(1);
+
+
+
+const anim = new Konva.Animation(function(frame) {
+  circle.filters([Konva.Filters.Noise]);
+  circle.noise(Math.random());
+}, layer);
+
+anim.start();
+
 layer.add(circle);
+
+layer.draw();
+
+const tween = new Konva.Tween({
+  node: circle,
+  duration: 2.0,
+  pixelSize: 30,
+  easing: Konva.Easings.EaseInOut
+});
+
+circle.on('mouseover', function() {
+  tween.play();
+});
+
+circle.on('mouseout', function() {
+  tween.reverse();
+});
+
+
+// add the shape to the layer
+
 
 // add the layer to the stage
 stage.add(layer);
